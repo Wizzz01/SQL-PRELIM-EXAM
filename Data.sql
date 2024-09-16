@@ -1,1 +1,63 @@
+--insert customers
 
+--insert cars
+INSERT INTO Cars (car_id, car_model, rental_price, movie_id)
+VALUES
+(1, '1995 Mitsubishi Eclipse', 250.00, 1),
+(2, '1994 Toyota Supra MK IV', 500.00, 1),
+(3, '1970 Dodge Charger R/T', 600.00, 1),
+(4, '1993 Honda Civic EJ1', 150.00, 1),
+(5, '1993 Mazda RX-7', 400.00, 1),
+(6, '1995 Volkswagen Jetta', 200.00, 1),
+(7, 'Acura Integra', 180.00, 1),
+(8, '1995 Nissan Skyline GT-R R33', 550.00, 1),
+(9, '1997 Mazda RX-7', 450.00, 2),
+(10, 'Nissan Fairlady Z (Z33)', 350.00, 2),
+(11, '2001 Nissan Silvia S15 Spec-S', 300.00, 2),
+(12, '2006 Mitsubishi Lancer Evolution IX', 400.00, 2),
+(13, '1967 Ford Mustang Fastback', 700.00, 2),
+(14, 'Plymouth Road Runner', 650.00, 2),
+(15, '1997 Chevrolet Monte Carlo', 150.00, 2),
+(16, 'Dodge Viper SRT-10', 600.00, 2),
+(17, '2003 Acura NSX', 450.00, 3),
+(18, '1971 Nissan Skyline GT-R KPGC10', 600.00, 3),
+(19, '2010 Dodge Charger SRT-8', 300.00, 3),
+(20, '2019 Koenigsegg CCXR', 3000.00, 3),
+(21, '2010 Nissan GT-R R35', 700.00, 3),
+(22, 'Porsche 996 GT3 RS', 800.00, 3),
+(23, '1966 Chevrolet Corvette Grand Sport Sting Ray', 750.00, 3),
+(24, '2011 Lexus LFA', 1000.00, 3),
+(25, '2012 Nissan GT-R R35', 700.00, 4),
+(26, '1970 Plymouth Barracuda', 600.00, 4),
+(27, '2014 Lykan HyperSport', 3500.00, 4),
+(28, '2014 Audi R8', 900.00, 4),
+(29, '2014 Maserati Ghibli', 500.00, 4),
+(30, '2012 Lamborghini Aventador', 1200.00, 4),
+(31, '2011 Bugatti Veyron', 2500.00, 4),
+(32, '2005 Aston Martin DB9', 600.00, 4),
+(33, '2006 Subaru Impreza WRX', 350.00, 5),
+(34, '1979 Lincoln Continental Mark V Collectors Series', 200.00, 5),
+(35, '1994 Cadillac Deville', 180.00, 5),
+(36, '1989 Chevrolet Caprice', 150.00, 5),
+(37, '2015 Dodge Challenger SRT Hellcat', 500.00, 5),
+(38, '1959 Chevrolet Impala Convertible', 400.00, 5),
+(39, '1964 Aston Martin DB5', 1200.00, 6),
+(40, '2006 Aston Martin DBS V12', 1000.00, 7),
+(41, '1977 Lotus Esprit S1', 900.00, 8),
+(42, '1981 Lotus Esprit Turbo', 850.00, 9),
+(43, 'Citroën 2CV', 100.00, 9),
+(44, '1999 BMW Z8', 900.00, 10);
+
+--insert movies
+INSERT INTO Movies (movie_id, car_title, release_year, movie_rating)
+VALUES
+(1, 'The Fast and the Furious', '2001', 6.8),
+(2, 'Tokyo Drift', '2006', 6.0),
+(3, 'Fast Five', '2011', 7.3),
+(4, 'Furious 7', '2015', 7.1),
+(5, 'Baby Driver', '2017', 7.6),
+(6, 'Goldfinger', '1964', 7.7),
+(7, 'Casino Royale', '2006', 8.0),
+(8, 'The Spy Who Loved Me', '1977', 7.0),
+(9, 'For Your Eyes Only', '1981', 6.7),
+(10, 'The World is Not Enough', '1999', 6.4);
