@@ -122,4 +122,6 @@ VALUES
 (9, 'For Your Eyes Only', '1981', 6.7),
 (10, 'The World is Not Enough', '1999', 6.4);
 
+--Insert Rentals
 
+--Insert Payments
