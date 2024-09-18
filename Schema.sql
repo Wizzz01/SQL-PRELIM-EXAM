@@ -22,7 +22,7 @@ create table Cars (
 --table movies
 create table Movies (
 	movie_id INT,
-	car_title VARCHAR(50),
+	movie_title VARCHAR(50),
 	release_year VARCHAR(50),
 	movie_rating DECIMAL(1,1)
 );
