@@ -30,6 +30,7 @@ create table Movies (
 create table Rentals (
 	rental_id INT,
 	customer_id INT,
+	car_id INT,
 	release_year YEAR,
   	rental_start DATE,
   	rental_end DATE,
