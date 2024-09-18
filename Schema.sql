@@ -40,5 +40,6 @@ create table Payments (
 	payment_id INT,
 	rental_id INT,
 	payment_date DATE,
+	amount DECIMAL(5,2),
 	payment_method TEXT
 );
