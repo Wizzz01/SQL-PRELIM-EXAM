@@ -111,7 +111,7 @@ VALUES
 (44, '1999 BMW Z8', 900.00, 10);
 
 --Insert Movies
-INSERT INTO Movies (movie_id, car_title, release_year, movie_rating)
+INSERT INTO Movies (movie_id, movie_title, release_year, movie_rating)
 VALUES
 (1, 'The Fast and the Furious', '2001', 6.8),
 (2, 'Tokyo Drift', '2006', 6.0),
