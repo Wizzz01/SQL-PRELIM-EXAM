@@ -125,7 +125,7 @@ VALUES
 (10, 'The World is Not Enough', '1999', 6.4);
 
 --Insert Rentals
-INSERT INTO Rentals (rental_id, customer_id, car_id, rental_start, rental_end, total_prices)
+INSERT INTO Rentals (rental_id, customer_id, car_id, rental_start, rental_end, total_price)
 VALUES
  (1, 22, 10, '2023-01-15', '2023-01-20', 350.00 * 5),
  (2, 39, 6, '2023-02-05', '2023-02-07', 200.00 * 2),
