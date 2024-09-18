@@ -31,7 +31,6 @@ create table Rentals (
 	rental_id INT,
 	customer_id INT,
 	car_id INT,
-	release_year YEAR,
   	rental_start DATE,
   	rental_end DATE,
 	total_price DECIMAL(5,2)
